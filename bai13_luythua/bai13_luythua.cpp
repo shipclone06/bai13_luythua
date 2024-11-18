@@ -2,10 +2,12 @@
 using namespace std;
 int main()
 {
-    cout << "luy thua\n" << endl;
-    int so, luythua = 1, b = 4;
+    cout << "luy thua\n";
+    int so, luythua = 1,mc;
     cin >> so;
-    for (int a = 1; a < b; a++)
+    cout << "nhap luythua:";
+    cin >> mc;
+    for (int a = 1; a < so; a++)
     {
         luythua *= so;
     }
