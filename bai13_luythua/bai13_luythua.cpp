@@ -4,10 +4,11 @@ int main()
 {
     cout << "luy thua\n";
     int so, luythua = 1,mc;
+    cout << "nhap so:\n";
     cin >> so;
     cout << "nhap luythua:";
     cin >> mc;
-    for (int a = 1; a < so; a++)
+    for (int a = 1; a < mc; a++)
     {
         luythua *= so;
     }
